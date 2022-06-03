@@ -1,7 +1,6 @@
 from pygooglenews import GoogleNews
 from plyer import notification
 import time
-import random
 # gn will be a dictionary holding all news posted in english
 gn = GoogleNews(lang='en')
 # top news will be filtered from gn dictionary
