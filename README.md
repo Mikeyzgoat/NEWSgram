@@ -2,6 +2,17 @@
 ## Description
 <i>This python file runs in the background and obtains all the top news from google news feed directly onto your notifications tab.</i>
 
+## Requirements
+- Python 3.6 or Higher
+- A terminal, WSL or Command prompt, pointing to the directory where the file is at
+
+- Running Commands : 
+`python3 newpost.py`
+
+- After the file starts execution it will be running in the background and can be terminated by typing 
+`Ctrl + C` 
+on the terminal. <br>
+
 ## Modules used
 * `GoogleNews` from `pygooglenews`
 * `notification` from `plyer`
